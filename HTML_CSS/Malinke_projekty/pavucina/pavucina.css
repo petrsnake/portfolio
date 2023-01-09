@@ -1,0 +1,36 @@
+h1 {
+    color: #ec6020;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2em;
+}
+
+p {
+    text-align: center;
+}
+
+#LD {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#LH {
+    position: absolute;
+    left:0px;
+    top:0px;
+    z-index: 31;
+}
+
+#PH {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 30;
+}
+
+#PD {
+    position: absolute;
+    right:0;
+    bottom: 0;
+}

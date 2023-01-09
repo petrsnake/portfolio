@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*css reset*/
+
+/* Default setting*/
+
+body{
+    max-width: 100%;
+    background-color:f6f6f6;
+    color: #691103;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+/* Header & Nav */
+
+.header-wraper{
+    background-color:#f6f6f6;
+    
+}
+header{
+    padding: 20px 0;
+    display: flex;
+    justify-content:space-between
+}
+
+.logo a{
+    color: #691103;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.logo a:hover{
+    color: #992412;
+}
+
+.navigace ul{
+    display:flex;
+    justify-content: flex-end;
+}
+
+li{
+    list-style: none;
+    margin-right: 10px;
+    
+}
+
+li a{
+    text-decoration: none;
+    background-color:rgb(247, 196, 178);
+    color: #691103;
+    padding:10px;
+    border-radius: 10px;
+
+}
+
+li a:hover{
+    background-color:rgba(242, 233, 243, 0.884);
+    color: black;
+}
+
+.welcome-section{
+    width: 100%;
+    height:300px;
+    background-image: url('./coffee-g680ddfda5_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Main headline & Article*/
+
+.main-content{
+    margin-top:80px;
+    display: flex;
+}
+
+article h2{
+    font-size:36px;
+    margin-bottom:20px
+}
+
+article{
+    font-size: 16px;
+}
+ 
+.img-waffle{
+    width: 400px;
+    height:auto;
+    border: radius 8px;
+    
+}
+
+.img-ice-cream{
+    display:block;
+    width: 400px;
+    height:auto;
+    border: radius 8px;
+    margin-right: 10px;
+}
+
+
+/* Footer */
+
+footer{
+    margin-top: 100px;
+    background-color: #350903;
+    width: 100%;
+    height: 50px;
+
+}
+
+footer ul {
+    display:flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items:flex-end;
+    color:rgb(235, 229, 217);
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+    
+    

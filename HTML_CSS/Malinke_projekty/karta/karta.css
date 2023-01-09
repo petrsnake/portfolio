@@ -1,0 +1,26 @@
+article {
+    border: 1px solid black ;
+    width: 200px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+#stred {
+    font-size: 3em;
+    text-align: center;
+}
+
+#prava {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#leva {
+    margin-left: 20px;
+    font-size: 1.2em;
+}

@@ -1,0 +1,17 @@
+.tlacitko {
+    background: #2086df;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-shadow: 0 0 3px black;
+}
+.tlacitko:hover {
+    background: #34a0ff;
+}
+
+nav {
+    padding: 20px;
+    background: #b3d8f9;
+    text-align: center;
+}
